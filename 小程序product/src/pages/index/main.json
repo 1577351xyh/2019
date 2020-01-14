@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "VIP",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "van-steps": "/static/vant/steps/index",
+    "van-card": "/static/vant/card/index",
+    "vant-button":"/static/vant/button/index"
+  }
+}

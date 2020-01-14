@@ -1,0 +1,104 @@
+@import('../vendor.styl')
+@import('../util.styl')
+
+.fancy-title {
+  line-height: 1.6;
+  font-size: 32px;
+  color: #000;
+  margin-right: 10px;
+  float left
+  margin-top: -12px;
+}
+.fancy_text {
+  font-size 16px
+  clear: both;
+}
+.fancy_en {
+  font-size 24px
+  color themeColor
+  text-transform uppercase
+  font-weight 100
+  margin-top 7px
+}
+.title_row {
+  margin-bottom 70px
+}
+
+
+
+/**client_row**/
+.client_row {
+  ul {
+    margin-bottom 70px
+  }
+  li {
+    width 25%
+    float left
+    padding 0 5px
+    margin-bottom 10px
+  }
+}
+.c_box {
+  position relative
+  overflow hidden
+  height 200px
+  background #fff
+  &:hover {
+    .c_logo {
+      position absolute
+      left 30px
+      top 20px
+      transform translate(0, 0)
+      display flex
+      height 56px
+      align-items center
+      img {
+        max-height 100%
+      }
+    }
+    .c_text {
+      opacity 1
+      top 80px
+    }
+  }
+}
+.c_logo {
+  position absolute
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+  transition all .5s
+  img {
+    //max-height 56px
+    transition all .5s
+  }
+}
+.c_text {
+  position absolute
+  width 100%
+  top 200px
+  left 0
+  opacity 0
+  color #333
+  transition all .5s
+  padding 0 30px
+  white-space pre-wrap
+}
+.cat_title {
+  font-size 20px
+  color #000
+  margin-bottom 20px
+}
+
+@media (max-width: 1600px) {
+  .culture_row {
+    margin 0 -10px 100px
+  }
+  .crystal_row {
+    margin 0 -10px 20px
+  }
+}
+
+@media (max-width: 767px) {
+
+}

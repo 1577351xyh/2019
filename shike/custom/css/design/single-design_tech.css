@@ -1,0 +1,39 @@
+.single_title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.single_sub_text {
+  margin-bottom: 30px;
+  color: #999;
+  text-align: right;
+}
+.single_sub_text span {
+  margin-left: 20px;
+}
+.single_sub_text img {
+  margin-right: 10px;
+}
+.single-content {
+  margin-bottom: 60px;
+}
+.single-content p {
+  line-height: 2;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.single-content .aligncenter {
+  margin: 0 auto;
+  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+  display: block;
+}
+.single_prev {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

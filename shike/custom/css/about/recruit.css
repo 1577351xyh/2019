@@ -1,0 +1,157 @@
+.content-top {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.content-top>img {
+    max-height:65px;
+    margin-right:40px;
+}
+.titles>div p {
+    margin-right: 15px;
+}
+.ajax-box>.add-content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.add-content.vc_row {
+    padding: 30px 30px;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+.titles>div {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.titles>div p {
+    font-size: 16px;
+}
+
+.titles h4 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.titles h3 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.recruit-title {
+    margin-top: 30px;
+}
+h4 span,h3 span {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+h6 span,h5 span {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 700;
+}
+h4,h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+h6,h5{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 700;
+}
+a.urlTo {
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background: #00cdfb;
+    display: block;
+    margin-top: 45px;
+}
+div.urlTo {
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background: #00cdfb;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer
+}
+div.bgc {
+    width: 27px;
+    height: 15px;
+    text-align: center;
+    background-color: none;
+    background-image: url(http://www.shikues.com/wp-content/uploads/2019/11/jiantou.png);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    cursor: pointer;
+    background-size: cover;
+}
+.content-bottom {
+    display: none;
+}
+@media (max-width: 1600px) {
+.vc_row.ajax-box {
+    padding: 0 4%;
+}
+}
+@media (max-width: 768px) {
+    .titles h4 {
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+    .add-content.vc_row {
+    padding: 30px 10px;
+}
+    div.urlTo {
+    width: 70px;
+    font-size: 12px;
+    height: 27px;
+    line-height: 27px;
+    top: 19%;
+}
+    .titles>div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+    flex-wrap: wrap;
+}
+    div.bgc {
+    top: 22%;
+    width: 27px;
+    height: 15px;
+}
+    .fancy_en {
+    float: left;
+}
+    h5 {
+    font-size: 14px;
+    text-align: justify;
+}
+    .titles>div p {
+    font-size: 14px;
+}
+    .title_row {
+    margin-bottom: 40px;
+}
+    a.urlTo {
+    margin-top: 20px;
+}
+}

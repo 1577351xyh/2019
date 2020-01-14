@@ -1,0 +1,241 @@
+@import('../vendor.styl')
+@import('../util.styl')
+
+.fancy-title {
+  line-height: 1.6;
+  font-size: 32px;
+  color: #000;
+  margin-right: 10px;
+  float left
+  margin-top: -12px;
+}
+.fancy_text {
+  font-size 16px
+  clear: both;
+}
+.fancy_en {
+  font-size 24px
+  color themeColor
+  text-transform uppercase
+  font-weight 100
+  margin-top 7px
+}
+.title_row {
+  margin-bottom 50px
+}
+
+/*about_row*/
+.about_row {
+  margin-bottom 100px
+  .vc_column {
+    float left
+  }
+}
+.about_left {
+  width 42%
+  padding-right 5%
+}
+.about_right {
+  width 58%
+}
+.about_text {
+  p {
+    margin-bottom 10px
+    text-indent: 28px;
+  }
+}
+
+/*seal_row*/
+.seal_row {
+  margin-bottom 100px
+}
+
+/*crystal_row*/
+.crystal_row {
+  margin-bottom 20px
+  > .vc_wrapper {
+    max-width 1620px
+  }
+  .vc_column {
+    width 25%
+    float left
+    padding: 0 10px;
+  }
+  .mk-image {
+    img {
+      display block
+      transition all 1s ease-in-out
+    }
+  }
+  .vc_column-box {
+    position relative
+    overflow hidden
+    &:hover {
+      img {
+        transform scale(1.2)
+      }
+    }
+  }
+}
+
+/*milepost_row*/
+.milepost_row {
+  padding 100px 0
+  color #fff
+  margin-bottom 100px
+  .fancy-title {
+    color: #fff;
+  }
+  .fancy_en {
+    color #fff
+  }
+}
+
+.milepost_line {
+  float left
+  li {
+    float left
+    width 100px
+    text-align center
+    font-size 36px
+    cursor pointer
+    &:first-child {
+      .milepost_bot {
+        &:before {
+          display none
+        }
+      }
+    }
+  }
+}
+.milepost_year {
+  opacity 0
+  visibility hidden
+}
+.milepost_active {
+  .milepost_year {
+    opacity 1
+    visibility visible
+  }
+  .milepost_dot {
+    background #ffb000
+    width 16px
+    height 16px
+  }
+}
+.milepost_bot {
+  height 20px
+  position relative
+  &:before {
+    position absolute
+    right 50%
+    top 50%
+    width 100%
+    height 1px
+    background #fff
+    content ''
+    display block
+  }
+}
+.milepost_dot {
+  position absolute
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+  width 10px
+  height 10px
+  border-radius 50%
+  background #fff
+  z-index: 1;
+}
+.milepost_arrow {
+  float: right;
+  margin-top: 45px;
+  span {
+    width 40px
+    height 40px
+    display inline-block
+    margin-left 20px
+    background-repeat no-repeat
+    background-position center
+    background-size contain
+  }
+  .swiper-button-disabled {
+    opacity: .5;
+  }
+}
+.milepost_left_arrow {
+  background-image url("/wp-content/uploads/2019/11/mile_l_arrow.png")
+}
+.milepost_right_arrow {
+  background-image url("/wp-content/uploads/2019/11/mile_r_arrow.png")
+}
+.milepost_title {
+  font-size: 60px;
+}
+.milepost_box {
+  padding-left: 200px;
+  min-height: 200px;
+  max-width: 80%;
+}
+
+
+/*culture_row*/
+.culture_row {
+  margin-bottom 100px
+  > .vc_wrapper {
+    max-width 1620px
+  }
+  .vc_column {
+    width 33.3333%
+    float left
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+  .vc_column-box {
+    background #fff
+    padding 60px 20px 0
+    text-align center
+    height 340px
+  }
+}
+.culture_img {
+  margin-bottom 15px
+  img {
+    height 60px
+  }
+}
+.culture_title {
+  font-size 24px
+  color #000
+  margin-bottom 10px
+}
+
+/*map_row*/
+.map_row {
+  margin-bottom 80px
+  .mk-image {
+    float right
+    width 85%
+  }
+}
+.map_text {
+  float: left;
+  font-size: 36px;
+  writing-mode: vertical-rl;
+  color themeColor
+  margin-top: 20%;
+}
+
+@media (max-width: 1600px) {
+  .culture_row {
+    margin 0 -10px 100px
+  }
+  .crystal_row {
+    margin 0 -10px 20px
+  }
+}
+
+@media (max-width: 767px) {
+
+}

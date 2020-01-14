@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/yuangong/main",
+    "pages/shareShop/main",
+    "pages/consume/main",
+    "pages/chongzhi/main",
+    "pages/koukuan/main",
+    "pages/jifenchongzhi/main",
+    "pages/cancel/main",
+    "pages/merchantInfo/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+
+}

@@ -1,0 +1,94 @@
+/*app_row*/
+.app_row {
+  margin-bottom: 80px;
+}
+.app_row > .vc_wrapper {
+  max-width: 1620px;
+}
+.app_list li {
+  width: 33.3333%;
+  float: left;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.app_box {
+  padding: 30px;
+  background: #fff;
+}
+.app_img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+  display: block;
+  overflow: hidden;
+}
+.app_img img {
+  height: 230px;
+  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+  display: block;
+  log: true;
+  log2: official;
+  -webkit-transition: all 1s ease-in-out;
+  -khtml-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.app_img:hover img {
+  log: true;
+  log2: official;
+  -webkit-transform: scale(1.2);
+  -khtml-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+a.app_title {
+  line-height: 1.6;
+  font-size: 28px;
+  color: #000;
+  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+  display: block;
+}
+a.app_title:hover {
+  color: #00cdfb;
+}
+.app_en {
+  font-size: 20px;
+  color: #00cdfb;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 1;
+}
+.cont_title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.cont_text {
+  height: 180px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  font-size: 14px;
+}
+.cont_box {
+  margin-bottom: 15px;
+}
+@media (max-width: 1600px) {
+  .app_row {
+    margin: 0 -10px 80px;
+  }
+}
+@media (max-width: 768px) {
+  .app_list li {
+    width: 100%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+}

@@ -1,0 +1,1128 @@
+[
+  {
+    "id": 1,
+    "name": "Low VF肖特基二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "I(AV)"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Package"
+      }
+    ],
+    "table": ""
+  },
+  {
+    "id": 2,
+    "name": "小封装肖特基",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "I(AV)"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "肖特基二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "I(AV)"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "普通整流二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "I(AV)"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "小信号整流二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "I(AV)"
+      },{
+        "field": "c",
+        "text": "IFSM"
+      },{
+        "field": "d",
+        "text": "VF"
+      },{
+        "field": "e",
+        "text": "VF / If"
+      },{
+        "field": "f",
+        "text": "Ir"
+      },{
+        "field": "g",
+        "text": "Ir / Vr"
+      },{
+        "field": "h",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "快恢复整流管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "I(AV)"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "高效整流管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "I(AV)"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "超快恢复整流管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "I(AV)"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "普通桥式整流器",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "V(DC)"
+      },{
+        "field": "c",
+        "text": "If"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "快恢复桥式整流器",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "If"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "高效桥式整流器",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "If"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "超快恢复桥式整流器",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Vdc"
+      },{
+        "field": "c",
+        "text": "If"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "肖特基整流桥",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "If"
+      },{
+        "field": "d",
+        "text": "IFSM"
+      },{
+        "field": "e",
+        "text": "VF"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Ir"
+      },{
+        "field": "h",
+        "text": "Ir / Vr"
+      },{
+        "field": "i",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "稳压二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Zener Voltage Rang / VZT(@IZT) / Min(V)"
+      },{
+        "field": "c",
+        "text": "Zener Voltage Rang / VZT(@IZT) / Nom(V)"
+      },{
+        "field": "d",
+        "text": "Zener Voltage Rang / VZT(@IZT) / Max(V)"
+      },{
+        "field": "e",
+        "text": "IZT"
+      },{
+        "field": "f",
+        "text": "Dynamic Impedance"
+      },{
+        "field": "g",
+        "text": "Reverse Current / Ir"
+      },{
+        "field": "h",
+        "text": "Reverse Current / @Vr"
+      },{
+        "field": "i",
+        "text": "Power DiSSI PATION"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "稳压管(双芯片)",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "PD"
+      },{
+        "field": "c",
+        "text": "脚位"
+      },{
+        "field": "d",
+        "text": "Vrwm"
+      },{
+        "field": "e",
+        "text": "Ir@Vrwm"
+      },{
+        "field": "f",
+        "text": "Vbr@Ima"
+      },{
+        "field": "g",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "双向触发二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VB0@22nF"
+      },{
+        "field": "c",
+        "text": "+/-VBO"
+      },{
+        "field": "d",
+        "text": "AV"
+      },{
+        "field": "e",
+        "text": "Vo"
+      },{
+        "field": "f",
+        "text": "Ibo"
+      },{
+        "field": "g",
+        "text": "IB"
+      },{
+        "field": "h",
+        "text": "Trr"
+      },{
+        "field": "i",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "开关二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "PD"
+      },{
+        "field": "c",
+        "text": "Vrrm"
+      },{
+        "field": "d",
+        "text": "Io"
+      },{
+        "field": "e",
+        "text": "If"
+      },{
+        "field": "f",
+        "text": "VF"
+      },{
+        "field": "g",
+        "text": "VF / If"
+      },{
+        "field": "h",
+        "text": "Ir"
+      },{
+        "field": "i",
+        "text": "Ir / Vr"
+      },{
+        "field": "j",
+        "text": "Trr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "变容二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Vr"
+      },{
+        "field": "c",
+        "text": "Rs"
+      },{
+        "field": "d",
+        "text": "Ir"
+      },{
+        "field": "e",
+        "text": "Ir / Vr"
+      },{
+        "field": "f",
+        "text": "Cl / Pf"
+      },{
+        "field": "g",
+        "text": "Cl / Vr"
+      },{
+        "field": "h",
+        "text": "C2 / Pf"
+      },{
+        "field": "i",
+        "text": "C2 / Vr"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "PIN二极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Vr"
+      },{
+        "field": "c",
+        "text": "If"
+      },{
+        "field": "d",
+        "text": "Ir"
+      },{
+        "field": "e",
+        "text": "Ir / Vr"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "RD1"
+      },{
+        "field": "h",
+        "text": "RD1 / @lF"
+      },{
+        "field": "i",
+        "text": "RD2"
+      },{
+        "field": "j",
+        "text": "RD2 / @lF"
+      },{
+        "field": "k",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "ESD保护管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "VRRM"
+      },{
+        "field": "c",
+        "text": "Vbr"
+      },{
+        "field": "d",
+        "text": "Ir"
+      },{
+        "field": "e",
+        "text": "Ir / Vrrm"
+      },{
+        "field": "f",
+        "text": "Cj"
+      },{
+        "field": "g",
+        "text": "Vc@Ipp"
+      },{
+        "field": "h",
+        "text": "Ipp TP=8/20US"
+      },{
+        "field": "i",
+        "text": "Peak Pulse Current Ipp"
+      },{
+        "field": "j",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "瞬态抑制管",
+    "th": [
+      {
+        "field": "a",
+        "text": "Reverse Stand-off Voltage"
+      },{
+        "field": "b",
+        "text": "Breakdown Voltage Vbr@It"
+      },{
+        "field": "c",
+        "text": "Test Current It"
+      },{
+        "field": "d",
+        "text": "Maximum Reverse Leakage"
+      },{
+        "field": "e",
+        "text": "Max. Clamp Voltage Vc@Ipp"
+      },{
+        "field": "f",
+        "text": "Peak Pulse Current Ipp"
+      },{
+        "field": "g",
+        "text": "Peak Pulse Power Dissipation Pppm"
+      },{
+        "field": "h",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "通用双极型晶体管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "POLARITY"
+      },{
+        "field": "c",
+        "text": "PCM"
+      },{
+        "field": "d",
+        "text": "Ic"
+      },{
+        "field": "e",
+        "text": "BVcbo"
+      },{
+        "field": "f",
+        "text": "BVceo"
+      },{
+        "field": "g",
+        "text": "BVebo"
+      },{
+        "field": "h",
+        "text": "Hfe / Min"
+      },{
+        "field": "i",
+        "text": "Hfe / Max"
+      },{
+        "field": "j",
+        "text": "Hfe / @VCE"
+      },{
+        "field": "k",
+        "text": "Hfe / @lc"
+      },{
+        "field": "l",
+        "text": "VCE(SAT)"
+      },{
+        "field": "m",
+        "text": "VCE(SAT) / @lc"
+      },{
+        "field": "n",
+        "text": "VCE(SAT) / Ib"
+      },{
+        "field": "o",
+        "text": "Ft"
+      },{
+        "field": "p",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "带阻三极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "極性 POLARITY"
+      },{
+        "field": "c",
+        "text": "PCM"
+      },{
+        "field": "d",
+        "text": "Ic"
+      },{
+        "field": "e",
+        "text": "BVcbo"
+      },{
+        "field": "f",
+        "text": "BVceo"
+      },{
+        "field": "g",
+        "text": "BVebo"
+      },{
+        "field": "h",
+        "text": "Hfe / Min"
+      },{
+        "field": "i",
+        "text": "Hfe / Max"
+      },{
+        "field": "j",
+        "text": "Hfe / @VCE"
+      },{
+        "field": "k",
+        "text": "Hfe / @lc"
+      },{
+        "field": "l",
+        "text": "VCE(SAT) / "
+      },{
+        "field": "m",
+        "text": "VCE(SAT) / @lc"
+      },{
+        "field": "n",
+        "text": "VCE(SAT) / IB"
+      },{
+        "field": "o",
+        "text": "Ft"
+      },{
+        "field": "p",
+        "text": "Rl"
+      },{
+        "field": "q",
+        "text": "R2"
+      },{
+        "field": "r",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "达林顿三极管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "極性 POLARITY"
+      },{
+        "field": "c",
+        "text": "PCM"
+      },{
+        "field": "d",
+        "text": "Ic"
+      },{
+        "field": "e",
+        "text": "BVcbo"
+      },{
+        "field": "f",
+        "text": "BVceo"
+      },{
+        "field": "g",
+        "text": "BVebo"
+      },{
+        "field": "h",
+        "text": "Hfe / Min"
+      },{
+        "field": "i",
+        "text": "Hfe / Max"
+      },{
+        "field": "j",
+        "text": "Hfe / @VCE"
+      },{
+        "field": "k",
+        "text": "Hfe / @lc"
+      },{
+        "field": "l",
+        "text": "VCE(SAT) / "
+      },{
+        "field": "m",
+        "text": "VCE(SAT) / @lc"
+      },{
+        "field": "n",
+        "text": "VCE(SAT) / IB"
+      },{
+        "field": "o",
+        "text": "Ft"
+      },{
+        "field": "p",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "高频管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "極性 POLARITY"
+      },{
+        "field": "c",
+        "text": "PCM"
+      },{
+        "field": "d",
+        "text": "Ic"
+      },{
+        "field": "e",
+        "text": "BVcbo"
+      },{
+        "field": "f",
+        "text": "BVceo"
+      },{
+        "field": "g",
+        "text": "BVebo"
+      },{
+        "field": "h",
+        "text": "Hfe / Min"
+      },{
+        "field": "i",
+        "text": "Hfe / Max"
+      },{
+        "field": "j",
+        "text": "Hfe / @VCE"
+      },{
+        "field": "k",
+        "text": "Hfe / @lc"
+      },{
+        "field": "l",
+        "text": "VCE(SAT) / "
+      },{
+        "field": "m",
+        "text": "VCE(SAT) / @lc"
+      },{
+        "field": "n",
+        "text": "VCE(SAT) / IB"
+      },{
+        "field": "o",
+        "text": "Ft"
+      },{
+        "field": "p",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "场效应管",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Polarity"
+      },{
+        "field": "c",
+        "text": "Pd"
+      },{
+        "field": "d",
+        "text": "Id"
+      },{
+        "field": "e",
+        "text": "Vds"
+      },{
+        "field": "f",
+        "text": "Vgs"
+      },{
+        "field": "g",
+        "text": "DS導通 / @10VmQ"
+      },{
+        "field": "h",
+        "text": "DS導通 / @4.5VmQ"
+      },{
+        "field": "i",
+        "text": "DS導通 / @2.5VmQ"
+      },{
+        "field": "j",
+        "text": "DS導通 / @1.8VmQ"
+      },{
+        "field": "k",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "低压差稳压器",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Power"
+      },{
+        "field": "c",
+        "text": "VlN"
+      },{
+        "field": "d",
+        "text": "VOUT / V"
+      },{
+        "field": "e",
+        "text": "lOUT / mA"
+      },{
+        "field": "f",
+        "text": "VF / If"
+      },{
+        "field": "g",
+        "text": "Accuracy"
+      },{
+        "field": "h",
+        "text": "Quiescent Current"
+      },{
+        "field": "i",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "电源基准IC",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "PD"
+      },{
+        "field": "c",
+        "text": "Ika"
+      },{
+        "field": "d",
+        "text": "Vka"
+      },{
+        "field": "e",
+        "text": "VREF@VKA=VREF"
+      },{
+        "field": "f",
+        "text": "管脚排列 PIN ARRAY"
+      },{
+        "field": "g",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "三端稳压IC",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Po"
+      },{
+        "field": "c",
+        "text": "Io"
+      },{
+        "field": "d",
+        "text": "Vl"
+      },{
+        "field": "e",
+        "text": "V0@Tj=25°C"
+      },{
+        "field": "f",
+        "text": "Iq"
+      },{
+        "field": "g",
+        "text": "Package"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "硅麦",
+    "th": [
+      {
+        "field": "a",
+        "text": "TYPE"
+      },{
+        "field": "b",
+        "text": "Vdd"
+      },{
+        "field": "c",
+        "text": "IDD"
+      },{
+        "field": "d",
+        "text": "SNR"
+      },{
+        "field": "e",
+        "text": "Sensitivity"
+      },{
+        "field": "f",
+        "text": "Package"
+      }
+    ]
+  }
+]

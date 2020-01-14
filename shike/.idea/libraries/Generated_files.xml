@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/custom/js/about/shike.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/bootstrap-paginator.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/bootstrap.min.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/common.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/countdown.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/design/design_tech.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/design/train.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/idangerous.swiper.min.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/product/categories.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/product/custom.min.js" />
+        <item url="file://$PROJECT_DIR$/custom/js/search.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/custom/js/about/shike.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/bootstrap-paginator.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/bootstrap.min.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/common.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/countdown.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/design/design_tech.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/design/train.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/idangerous.swiper.min.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/product/categories.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/product/custom.min.js" />
+      <root url="file://$PROJECT_DIR$/custom/js/search.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

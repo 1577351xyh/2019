@@ -1,0 +1,335 @@
+@import('vendor.styl')
+@import('util.styl')
+
+/*footer*/
+#mk-footer {
+  color: #fff;
+  padding: 70px 0 0px;
+  position relative
+  background: #1b1b1b;
+}
+.footer_row {
+  min-height: 250px;
+}
+.footer-col {
+  float left
+}
+.footer-col-1 {
+  width: 23%;
+  padding-right: 5%;
+}
+.footer-col-2 {
+  width: 53%;
+  border-left: 1px solid #434343;
+  border-right: 1px solid #434343;
+  padding-left: 5%;
+}
+.footer-col-3 {
+  width: 24%;
+  text-align right
+}
+.menu-footer-menu-container {
+  ul {
+    font-size 0
+  }
+  .menu-item-has-children {
+    width 25%
+    display inline-block
+    vertical-align top
+    a {
+      color #a4a4a4
+      font-size: 14px;
+      margin-bottom: 5px;
+      display block
+    }
+    > a {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 10px;
+      cursor default
+    }
+    a:hover {
+      color themeColor
+    }
+  }
+}
+a.footer-hotline {
+  font-size 24px
+  margin-bottom 15px
+  display block
+  color #fff
+  span {
+    width 30px;
+    height 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: -5px;
+    background url("/wp-content/uploads/2019/11/i_ft_tel.png") no-repeat center
+  }
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-desc {
+  font-size 16px
+  margin-bottom 10px
+}
+.footer-copyright {
+  font-size: 12px;
+  a {
+    color #fff
+    display block
+  }
+}
+.footer-contact-outlink {
+  margin-bottom 20px
+  font-size 14px
+  a {
+    display inline-block
+    vertical-align middle
+    margin-left 5px
+    background-size contain
+    background-repeat no-repeat
+    background-position center
+    width 30px;
+    height 30px;
+  }
+  a.footer-i-wx {
+    background-image url("/wp-content/uploads/2019/11/i_weixin.png")
+    position relative
+    img {
+      position absolute
+      opacity: 0;
+      visibility: hidden;
+      max-width: none;
+      width 167px
+      left: 50%;
+      margin-left: -83px;
+      bottom: 100%;
+      transition: all .3s;
+      transform: translateY(-20px);
+    }
+    &:hover {
+      img {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+    }
+  }
+  a.footer-i-qq {
+    background-image url("/wp-content/uploads/2019/11/i_qq.png")
+  }
+  a.footer-i-fb {
+    background-image url("/wp-content/uploads/2019/11/i_FB.png")
+  }
+}
+.footer-inlink {
+  display inline-block
+  font-size 0
+  vertical-align middle
+  a {
+    color #a4a4a4
+    display: inline-block
+    vertical-align middle
+    padding 0 15px
+    border-left 1px solid #a4a4a4
+    line-height: 1.0;
+    font-size 14px
+  }
+  a:first-child {
+    border-left 0
+    padding-left 0
+  }
+  a:hover {
+    color themeColor
+  }
+}
+.footer-sub {
+  padding 20px 0
+  border-top 1px solid #434343
+  margin-top 10px
+  #lang_sel {
+    float right
+  }
+  #lang_sel a:visited,
+  #lang_sel a {
+    font-size 14px
+    border-color transparent
+  }
+  #lang_sel a.lang_sel_sel,
+  #lang_sel a.lang_sel_sel:visited {
+    color: #a4a4a4;
+    background-color transparent!important
+  }
+  #lang_sel li {
+    width 100px
+    float none
+  }
+  #lang_sel ul ul {
+    width 110px
+    top auto
+    bottom 100%
+    height: auto;
+    li {
+      width 110px
+    }
+  }
+  #lang_sel a.lang_sel_sel {
+    background: url(/wp-content/uploads/2019/11/lang_arrow_ft.png) no-repeat right center
+    border: 0;
+  }
+}
+
+  .mk-to-top {
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    width: 90px;
+    margin-bottom: -310px;
+    z-index 99
+    display none
+  }
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    visibility hidden;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    visibility visible;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes fadeOutUp {
+  from {
+    opacity: 1;
+    visibility visible;
+  }
+
+  to {
+    opacity: 0;
+    visibility hidden;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@media (max-width: 1024px){
+  #mk-footer {
+    padding 0
+  }
+  .footer-col-1 {
+    display none
+  }
+  .footer-col {
+    width 100%
+    font-size: 14px;
+  }
+  .menu-footer-menu-container{
+    .menu-item-has-children {
+      display block
+      width 100%
+      a {
+        display block
+        margin 0
+      }
+      > a {
+        font-size 18px
+        padding 15px 35px
+        border-bottom 1px solid #434343
+        position: relative;
+        &:after  {
+          content ''
+          display: block
+          position absolute
+          right 10px
+          top 0;
+          height 100%;
+          width 56px
+          background url('/wp-content/uploads/2019/11/menu_fold_ft.png') no-repeat center / 20px auto
+        }
+      }
+      ul {
+        background #e5e5e5
+        display none
+        a {
+          font-size 16px
+          color #666
+          padding 15px 35px 15px 55px
+          border-bottom 1px solid #fff
+        }
+        a:hover {
+          color: themeColor;
+        }
+      }
+    }
+    .footer-menu-opened {
+      > a {
+        color: themeColor;
+        &:after {
+          background-image url('/wp-content/uploads/2019/11/menu_unfold_ft.png')
+        }
+      }
+    }
+  }
+  .footer-col-2 {
+    float: none;
+    max-width: 100%;
+    padding: 0;
+    border: 0;
+  }
+  .footer_row.vc_row {
+    > .vc_wrapper {
+      padding: 0;
+    }
+  }
+  .mk-to-top {
+    bottom: 10%;
+    width: 60px;
+    margin-bottom: 0;
+  }
+  .footer-sub {
+    border-top 0
+    margin-top: 0;
+    padding-top: 10px;
+    #lang_sel {
+      display none
+    }
+  }
+  .footer-inlink{
+    text-align center
+    display block
+    a {
+      font-size 12px
+      padding 0 8px
+    }
+  }
+  .footer-contact-outlink {
+    text-align center
+    margin-bottom 30px
+    a {
+      width 20px
+      height 20px
+    }
+  }
+  .footer-hotline {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom 10px
+    text-align center
+    span {
+      width 20px
+      height 20px
+      background-size contain
+    }
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+}
+
+

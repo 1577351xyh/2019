@@ -1,0 +1,759 @@
+.mk-header {
+    height: 68px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 60;
+    log: true;
+    log2: official;
+    -webkit-transition: all 0.3s;
+    -khtml-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #fff;
+    font-size: 16px;
+}
+
+.mk-header #lang_sel a:visited,
+.mk-header #lang_sel a {
+    font-size: 16px;
+    line-height: 68px;
+    border-color: #f0f0f0;
+}
+
+.mk-header #lang_sel a.lang_sel_sel,
+.mk-header #lang_sel a.lang_sel_sel:visited {
+    background-color: transparent !important;
+}
+
+.mk-header #lang_sel {
+    margin: 0 40px;
+    height: auto;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: block;
+}
+
+.mk-header #lang_sel li {
+    width: 100px;
+}
+
+.mk-header #lang_sel ul ul {
+    top: 68px;
+}
+
+.mk-header #lang_sel ul ul li {
+    width: 110px;
+}
+
+.mk-header #lang_sel ul ul a {
+    line-height: 2;
+}
+
+.mk-header #lang_sel a.lang_sel_sel {
+    background: url("/wp-content/uploads/2019/11/lang_arrow.png") no-repeat right center;
+    border: 0;
+}
+
+/**main-navigation-ul**/
+.main-navigation-ul {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.main-navigation-ul > .menu-item {
+    padding: 0 25px;
+    height: 100%;
+    position: relative;
+    float: left;
+    log: true;
+    log2: official;
+    -webkit-transition: all 0.3s;
+    -khtml-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.main-navigation-ul > .menu-item > a {
+    line-height: 68px;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: block;
+    height: 100%;
+    color: #333;
+}
+
+.main-navigation-ul > .menu-item > a:hover {
+    color: #00cdfb;
+}
+
+.main-navigation-ul .current-menu-item a {
+    color: #00cdfb;
+}
+
+.main-navigation-ul .m_menu_item {
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+}
+
+.main-navigation-ul .menu-item-has-children:after {
+    content: '';
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #fff;
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    left: 50%;
+    margin-left: -8px;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+}
+
+.main-navigation-ul .menu-item-has-children:hover:after,
+.main-navigation-ul .menu-item-has-children:hover .sub-menu {
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: block;
+}
+
+.main-navigation-ul .sub-menu {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 3;
+    background: #fff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: 0;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+}
+
+.main-navigation-ul .sub-menu > .menu-item {
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 24px;
+}
+
+.main-navigation-ul .sub-menu a {
+    color: #00cdfb;
+    height: 50px;
+    line-height: 50px;
+}
+
+.main-navigation-ul .sub-menu .menu-item-label {
+    font-size: 16px;
+    color: #333;
+    border-bottom: solid 1px #dbdbdb;
+    line-height: 3.75;
+}
+
+/**header-right**/
+.header-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    log: true;
+    log2: official;
+    -webkit-transition: all 0.3s;
+    -khtml-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header-right li {
+    float: left;
+}
+
+.hdr-shop a {
+    line-height: 68px;
+    margin-right: 40px;
+}
+
+.hdr-shop a:hover span {
+    background-image: url("/wp-content/uploads/2019/11/i_shop_active.png");
+}
+
+.hdr-shop span {
+    width: 26px;
+    height: 26px;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: -5px;
+    background: url("/wp-content/uploads/2019/11/i_shop.png") no-repeat center;
+    log: true;
+    log2: official;
+    -webkit-transition: all 0.3s;
+    -khtml-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.hdr-search {
+    position: relative;
+    log: true;
+    log2: official;
+    -webkit-transition: opacity 0.3s, visibility 0.3s;
+    -khtml-transition: opacity 0.3s, visibility 0.3s;
+    -moz-transition: opacity 0.3s, visibility 0.3s;
+    -o-transition: opacity 0.3s, visibility 0.3s;
+    -ms-transition: opacity 0.3s, visibility 0.3s;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.hdr-search input {
+    width: 268px;
+    -webkit-appearance: none;
+    height: 68px;
+    color: #fff;
+    background: #383e41;
+    padding: 15px 60px 15px 25px;
+    border: 0;
+    box-shadow: none;
+    font-size: 16px;
+    log: true;
+    log2: official;
+    -webkit-transition: all 0.3s;
+    -khtml-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.hdr-search input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.hdr-search input::-moz-placeholder {
+    color: #fff;
+}
+
+.hdr-search input::-ms-input-placeholder {
+    color: #fff;
+}
+
+.hdr-search button {
+    font-size: 0;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("/wp-content/uploads/2019/11/i_search.png") no-repeat center;
+    border: 0;
+    box-shadow: none;
+}
+
+.hdr-search-icon {
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+}
+
+.hdr-tel a {
+    background: #00cdfb;
+    width: 190px;
+    text-align: center;
+    color: #fff;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: block;
+    line-height: 68px;
+}
+
+.hdr-tel span {
+    width: 20px;
+    height: 20px;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: -5px;
+    background: url("/wp-content/uploads/2019/11/i_tel.png") no-repeat center;
+}
+
+.mk-header-logo {
+    float: left;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+.mk-header-logo img {
+    height: 54px;
+}
+
+.menu-item-language {
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+}
+
+/**scroll-header**/
+/**responsive-nav-container**/
+.responsive-nav-container {
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    overflow-y: scroll;
+}
+
+.responsive-nav-container .menu-item {
+    border-top: 1px solid #f2f2f2;
+}
+
+.responsive-nav-container .menu-item a {
+    padding: 0 35px;
+    font-size: 20px;
+    line-height: 60px;
+    color: #333;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: block;
+}
+
+.responsive-nav-container .menu-item a:hover {
+    color: #00cdfb;
+}
+
+.responsive-nav-container .sub-menu {
+    background: #e5e5e5;
+}
+
+.responsive-nav-container .sub-menu a {
+    padding-left: 55px;
+}
+
+.responsive-nav-container .sub-menu a:hover {
+    color: #333;
+}
+
+.responsive-nav-container .sub-menu .sub-menu a {
+    padding-left: 55px;
+    font-size: 18px;
+    color: #666;
+}
+
+.responsive-nav-container .sub-menu .sub-menu a:hover {
+    color: #00cdfb;
+}
+
+.responsive-nav-container .menu > .menu-item-has-children > ul {
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+}
+
+.responsive-nav-container .menu > .menu-item-has-children > a {
+    position: relative;
+}
+
+.responsive-nav-container .menu > .menu-item-has-children > a:after {
+    content: '';
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+    width: 56px;
+    background: url("/wp-content/uploads/2019/11/menu_fold.png") no-repeat center/20px auto;
+}
+
+.responsive-nav-container .menu > .menu-item-has-children > a:hover {
+    color: #333;
+}
+
+.responsive-nav-container .menu .menu-opened > a {
+    color: #00cdfb !important;
+}
+
+.responsive-nav-container .menu .menu-opened > a:after {
+    background-image: url("/wp-content/uploads/2019/11/menu_unfold.png");
+}
+
+.responsive-nav-container .menu-item-language-current > a,
+.responsive-nav-container .current_page_ancestor > a,
+.responsive-nav-container .current_page_item > a {
+    color: #00cdfb !important;
+}
+
+.responsive-nav-container .phone_menu_item,
+.responsive-nav-container .consult_menu_item {
+    border-top: 0;
+}
+
+.responsive-nav-container .qr_menu_item a,
+.responsive-nav-container .phone_menu_item a,
+.responsive-nav-container .consult_menu_item a {
+    line-height: 46px;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-position: 35px 50%;
+    log: true;
+    log2: official;
+    -webkit-background-size: auto 50%;
+    -moz-background-size: auto 50%;
+    background-size: auto 50%;
+}
+
+/**responsive-nav-link**/
+.responsive-nav-link {
+    float: right;
+    position: relative;
+    display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+    display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+    display: none;
+    height: 48px;
+    width: 28px;
+    background: url("/wp-content/uploads/2019/11/m_menu_0.png") no-repeat center/contain;
+}
+
+.res-nav-opened {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.responsive-nav-link.active-burger {
+    background-image: url("/wp-content/uploads/2019/11/m_menu_close.png");
+}
+
+.sub-menu .menu-item {
+
+}
+
+.main-navigation-ul .sub-menu {
+    top: 100%;
+}
+
+.main-navigation-ul .sub-menu .menu-item a {
+    color: #666666;
+    height: 50px;
+    line-height: 50px;
+    width: auto;
+    white-space: nowrap;
+}
+
+.main-navigation-ul .sub-menu .menu-item a:hover {
+    color: #00cdfb !important;
+}
+
+.main-navigation-ul .sub-menu .menu-item {
+    width: 100%;
+}
+
+
+@media (max-width: 1600px) {
+    .main-navigation-ul {
+        padding: 0 4%;
+    }
+    .main-navigation-ul .menu-item {
+        padding: 0 20px;
+    }
+/*ru*/
+  .from-ru input{
+    width: 200px;
+  }
+  .header-right-ru .hdr-tel a{
+    width: 150px;
+  }
+}
+@media (max-width: 1500px) {
+   .hdr-shop-ru{
+     display: none;
+   }
+}
+/*俄罗斯*/
+.main-navigation-ul-ru .mk-header-logo {
+    margin-right: 1%;
+}
+
+.main-navigation-ul-ru > .menu-item {
+    padding: 0 8px;
+}
+
+.ru .menu-item {
+    padding: 0 8px;
+    margin-left: 10px;
+}
+
+.hdr-shop-ru a {
+    line-height: 68px;
+    margin-right: 10px;
+}
+
+
+
+/*日语*/
+@media (max-width: 1600px) {
+
+
+    .main-navigation-ul-ja > .menu-item {
+        padding: 0 8px;
+    }
+
+    .ja .menu-item {
+        padding: 0 8px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .main-navigation-ul-ja .mk-header-logo {
+        margin-right: 1%;
+    }
+}
+
+
+/*德语*/
+@media (max-width: 1600px) {
+    .main-navigation-ul-de .mk-header-logo {
+        margin-right: 0%;
+    }
+
+    .main-navigation-ul-de > .menu-item {
+        padding: 0 8px;
+    }
+
+    .de .menu-item {
+        padding: 0 8px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1300px) {
+    .main-navigation-ul-de .mk-header-logo {
+        margin-right: 0%;
+    }
+
+    .main-navigation-ul-de > .menu-item {
+        padding: 0 4px;
+    }
+    .de .menu-item {
+        padding: 0 2px;
+        margin-left: 5px;
+    }
+}
+@media (max-width: 1600px) {
+    .main-navigation-ul-es .mk-header-logo {
+        margin-right: 1%;
+    }
+
+    .main-navigation-ul-es > .menu-item {
+        padding: 0 10px;
+    }
+
+    .es .menu-item {
+        padding: 0 8px;
+        margin-left: 10px;
+    }
+}
+
+
+/*英文导航栏适配*/
+@media (max-width: 1600px) {
+    .main-navigation-ul-en {
+        padding: 0 4%;
+    }
+
+    .main-navigation-ul-en .menu-item {
+        padding: 0 10px;
+    }
+}
+
+/*英文导航栏适配*/
+@media (max-width: 1550px) {
+    .main-navigation-ul-en {
+        padding: 0 2%;
+    }
+
+    .main-navigation-ul-en .menu-item {
+        padding: 0 10px;
+    }
+}
+
+/*英文导航栏适配*/
+@media (max-width: 1200px) {
+    .hdr-shop-en {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1480px) {
+    .hdr-shop a {
+        margin-right: 20px;
+    }
+
+    .mk-header-logo {
+        margin-right: 2%;
+    }
+
+    .main-navigation-ul-en .mk-header-logo {
+        margin-right: 1%;
+    }
+
+    .mk-header #lang_sel {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .hdr-shop a {
+        margin-right: 4px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .hdr-search {
+        log: true;
+        log2: official;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        visibility: hidden;
+        position: fixed;
+        width: 100%;
+        top: 68px;
+        left: 0;
+    }
+
+    .hdr-search input {
+        width: 100%;
+    }
+
+    .from-de {
+        log: true;
+        log2: official;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        -ms-filter: none;
+        filter: none;
+        visibility: visible;
+    }
+
+    .hdr-search-show {
+        log: true;
+        log2: official;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        -ms-filter: none;
+        filter: none;
+        visibility: visible;
+    }
+
+    .hdr-search-icon {
+        display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+        display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+        display: block;
+        width: 40px;
+        height: 68px;
+        background: url("/wp-content/uploads/2019/11/i_search_black.png") no-repeat center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu-item-language {
+        display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+        display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+        display: block;
+    }
+
+    .mk-header {
+        position: fixed;
+        height: 48px;
+    }
+
+    #theme-page {
+        margin-top: 48px;
+    }
+
+    .responsive-nav-link {
+        display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+        display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+        display: block;
+    }
+
+    .header-right {
+        display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+        display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+        display: none;
+    }
+
+    .main-navigation-ul .menu-item {
+        display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+        display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+        display: none;
+    }
+
+    .mk-header-logo {
+        width: 200px;
+        height: 48px;
+        padding-top: 0;
+        margin-top: 0;
+        background: url("/wp-content/uploads/2019/11/logo_216x116.png") no-repeat left center/auto 70%;
+    }
+
+    .main-navigation-ul-en .mk-header-logo {
+        width: 200px;
+        height: 48px;
+        padding-top: 0;
+        margin-top: 0;
+        background: url("/wp-content/uploads/2019/12/logo.jpeg") no-repeat left center/auto 70%;
+    }
+
+    .mk-header-logo img {
+        log: true;
+        log2: official;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        height: 100%;
+    }
+
+    .mk-header:hover,
+    .scroll-header,
+    .fixed-header {
+        background: #fff;
+    }
+}

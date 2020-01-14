@@ -1,0 +1,13 @@
+.fancy-title{line-height:1.6;font-size:32px;color:#000;margin-right:10px;float:left;margin-top:-12px}.fancy_text{font-size:16px;clear:both}.fancy_en{font-size:24px;color:#00cdfb;text-transform:uppercase;font-weight:100;margin-top:7px}.title_row{margin-bottom:70px}.client_row ul{margin-bottom:70px}.client_row li{width:25%;float:left;padding:0 5px;margin-bottom:10px}.c_box{position:relative;overflow:hidden;height:200px;background:#fff}.c_box:hover .c_logo{position:absolute;left:30px;top:20px;log:true;log2:official;-webkit-transform:translate(0,0);-khtml-transform:translate(0,0);-moz-transform:translate(0,0);-o-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;display:flex;height:56px;align-items:center}.c_box:hover .c_logo img{max-height:100%}.c_box:hover .c_text{log:true;log2:official;-webkit-opacity:1;-moz-opacity:1;opacity:1;-ms-filter:none;filter:none;top:80px}.c_logo{position:absolute;left:50%;top:50%;log:true;log2:official;-webkit-transform:translate(-50%,-50%);-khtml-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);log:true;log2:official;-webkit-transition:all .5s;-khtml-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;-ms-transition:all .5s;transition:all .5s}.c_logo img{log:true;log2:official;-webkit-transition:all .5s;-khtml-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;-ms-transition:all .5s;transition:all .5s}.c_text{position:absolute;width:100%;top:200px;left:0;log:true;log2:official;-webkit-opacity:0;-moz-opacity:0;opacity:0;filter:alpha(opacity=0);-ms-filter:"alpha(opacity=0)";color:#333;log:true;log2:official;-webkit-transition:all .5s;-khtml-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;-ms-transition:all .5s;transition:all .5s;padding:0 30px;white-space:pre-wrap}.cat_title{font-size:20px;color:#000;margin-bottom:20px}@media(max-width:1600px){.culture_row{margin:0 -10px 100px}.crystal_row{margin:0 -10px 20px}}
+@media (max-width: 768px) {
+  .client_row li {
+    width: 100%;
+    float: left;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+  .fancy_en {
+    font-size: 20px;
+    float: left;
+}
+}

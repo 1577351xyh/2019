@@ -1,0 +1,85 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx0d693db8b387347f",
+	"projectname": "shopping",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "商家扣款",
+					"pathName": "pages/koukuan/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "商家扣款",
+					"pathName": "pages/consume/main",
+					"query": "shop_id=1"
+				},
+				{
+					"id": -1,
+					"name": "商城",
+					"pathName": "pages/shopping/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "uangong",
+					"pathName": "pages/merchantInfo/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "info",
+					"pathName": "pages/merchantInfo/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "uangong",
+					"pathName": "pages/yuangong/main",
+					"query": ""
+				}
+			]
+		}
+	}
+}
